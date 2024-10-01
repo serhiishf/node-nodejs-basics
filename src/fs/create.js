@@ -1,6 +1,5 @@
 import { access, constants } from 'node:fs/promises';
 import { writeFile } from 'node:fs';
-import { Buffer } from 'node:buffer';
 
 const create = async () => {
   const pathToFile = 'src/fs/files/fresh.txt';
